@@ -1,0 +1,103 @@
+
+div.paragraph {
+	float: left;
+	width: 300px;
+}
+
+div.form-contact-info-1 {
+	float: left;
+	width: 400px;
+}
+div.form-contact-info-2 {
+	float: right;
+	width: 400px;
+}
+
+table {
+	width: 90%;
+	clear: both;
+	margin: auto;
+}
+body {
+	background-color: white;
+	font-size: 20px;
+	color: black;
+}
+
+img {
+	width: 100%;
+}
+
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+#main-title1 {
+	color: purple;
+}
+
+
+.main-title {
+	color: yellow;
+}
+
+
+h1 {
+	text-align: justify;
+	font-size: 3em;
+}
+
+
+
+p:first-of-type {
+	color: red;
+}
+
+/*a:hover {
+	text-decoration: underline;
+	cursor: -webkit-zoom-in;
+}*/
+
+p::first-line {
+	color: white;
+}
+
+p::first-letter{
+
+	font-size: 20px;
+}
+
+p::after {
+	content: ' Fin del Parraro';
+}
+
+p::before {
+	content: 'Inicio del Parrafo ';
+}
+
+p::selection {
+	background-color: white;
+	color: yellow;
+}
+
+.required {
+	color: red;
+}
+
+span.required {
+	padding: 5px;
+}
+
+
+
+/*
+input.required {
+	border: 2px solid red;
+}*/
+
+/*div.form-general-info span.required {
+	color: blue;
+}
+*/
